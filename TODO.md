@@ -1,0 +1,1 @@
+Add the "beta view" (redirect from index.html to home.html)
