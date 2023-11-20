@@ -8,3 +8,7 @@
     font-family: "Audiowide";
     src: url(assets/fonts/audiowide/Audiowide-Regular.ttf);
 }
+@font-face {
+    font-family: "Cascadia";
+    src: url(assets/fonts/Cascadia/CascadiaMono.ttf);
+}
