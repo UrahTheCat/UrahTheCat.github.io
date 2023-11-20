@@ -14,7 +14,14 @@ html {
 }
 
 body {
+    width: 100vw;
+
     overflow-x: hidden;
     overflow-y: scroll;
+
+    text-align: center;
+    justify-content: center;
+
+    
 
 }
