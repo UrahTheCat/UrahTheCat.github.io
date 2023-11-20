@@ -3,3 +3,7 @@ html {
     background-color: var(--bg-color);
     
 }
+
+* {
+    font-family: audi;
+}
