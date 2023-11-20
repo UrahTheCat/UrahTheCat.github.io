@@ -5,5 +5,6 @@ html {
 }
 
 * {
-    font-family: audi;
+    font-family: "Audiowide", monospace;
+    color: white;
 }
