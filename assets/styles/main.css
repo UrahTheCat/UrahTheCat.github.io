@@ -1,0 +1,20 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;    
+}
+
+* {
+    overflow-x: hidden;
+
+    color: white;
+    background-color: var(--bg-color);
+    
+    font-family: "Audiowide", monospace;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
