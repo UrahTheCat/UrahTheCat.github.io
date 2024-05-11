@@ -16,3 +16,9 @@
     font-family: "Cascadia";
     src: url(assets/fonts/Cascadia/CascadiaMono.ttf);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
