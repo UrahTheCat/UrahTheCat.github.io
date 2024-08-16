@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: "Audiowide";
-    src:    url(assets/fonts/audiowide/Audiowide-Regular.ttf) format('truetype'),
-            url(assets/fonts/audiowide/Audiowide-Regular.woff) format('woff');
+    src:    url(assets/fonts/audiowide/Audiowide-Regular.woff) format('woff'),
+            url(assets/fonts/audiowide/Audiowide-Regular.ttf) format('truetype');
     
 }
 @font-face {
