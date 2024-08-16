@@ -1,17 +1,74 @@
+html {
+    margin: 0;
+    padding: 0;    
+    
+}
+* {
+    color: white;
+    background-color: var(--bg-color);
+    font-family: "Audiowide", monospace;
+    
+}
+body {
+    width: auto;
+    margin: 5% 20% 0% 20%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
 .layout {
-  
     display: grid;
     grid:
       "header header header" auto
       "leftSide body rightSide" 1fr
       "footer footer footer" auto
-      / 0.5fr 1fr 0.5fr;
+      / 0.1fr 1fr 0.2fr;
     gap: 8px;
     border: 2px solid;
-  }
-  
-  .header { grid-area: header; border: 2px solid;}
-  .leftSide { grid-area: leftSide; border: 2px solid;}
-  .body { grid-area: body; border: 2px solid;}
-  .rightSide { grid-area: rightSide; border: 2px solid;}
-  .footer { grid-area: footer; border: 2px solid;}
+}
+
+
+
+.header { 
+    grid-area: header; 
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.leftSide { 
+    grid-area: leftSide; 
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
+.nav {
+    list-style: none;
+    justify-content: center;
+    margin: 10px;
+}
+.nav-button {
+    border: 2px solid;
+    margin: 0px 0px 1rem 0px;
+}
+
+
+.body { 
+    grid-area: body; 
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
+.rightSide { 
+    grid-area: rightSide; 
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
+.footer { 
+    grid-area: footer; 
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
