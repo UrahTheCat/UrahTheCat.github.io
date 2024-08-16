@@ -10,11 +10,13 @@
 
 @font-face {
     font-family: "Audiowide";
-    src: url(fonts/audiowide/Audiowide-Regular.ttf) format('truetype');
+    src:    url(assets/fonts/audiowide/Audiowide-Regular.ttf) format('truetype'),
+            url(assets/fonts/audiowide/Audiowide-Regular.woff) format('woff');
+    
 }
 @font-face {
     font-family: "Cascadia";
-    src: url(fonts/Cascadia/CascadiaMono.ttf) format('truetype');
+    src: url(assets/fonts/Cascadia/CascadiaMono.ttf) format('truetype');
 }
 
 ul {
