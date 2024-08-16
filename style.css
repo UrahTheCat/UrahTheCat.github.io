@@ -16,7 +16,6 @@ body {
     text-align: center;
     padding: 10px;
 }
-
 .layout {
     display: grid;
     grid:
@@ -51,7 +50,9 @@ body {
 .nav-button {
     border: 2px solid;
     margin: 0px 0px 1rem 0px;
-}
+    padding: 7px;
+} 
+.nav-link {text-decoration: none;}
 
 
 .body { 
