@@ -26,7 +26,10 @@ body {
     gap: 8px;
     border: 2px solid;
 }
-
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 
 .header { 
@@ -52,7 +55,7 @@ body {
     margin: 0px 0px 1rem 0px;
     padding: 7px;
 } 
-.nav-link {text-decoration: none;}
+
 
 
 .body { 
