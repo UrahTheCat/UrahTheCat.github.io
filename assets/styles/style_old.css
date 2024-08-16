@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;    
+}
+
+* {
+    color: white;
+    background-color: var(--bg-color);
+    font-family: "Audiowide", monospace;
+}
+
+body {
+    width: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-container {
+    
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 24%;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    height: 30rem;
+}
+
+.window {
+    border-style: solid;
+    border-color: var(--border-color);
+    background-color: var(--bg-color);
+}
+
+.window-header {
+    padding: 5px;
+  text-align: center;
+  background: var(--border-color);
+  color: white;
+  font-size: 20px;
+
+}
+
+.nav-bar {
+    width: 30%;
+    
+    margin: 0px 10px 0px 0px;
+    
+    
+}
+
+.info-window {
+    width: 70%;
+}
