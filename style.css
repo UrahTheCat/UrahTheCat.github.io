@@ -7,11 +7,11 @@ html {
     color: white;
     background-color: var(--bg-color);
     font-family: "Audiowide", monospace;
-    
+    justify-content: center;
+    text-align: center;
 }
 body {
-    width: auto;
-    margin: 5% 20% 0% 20%;
+    display: flex;
     justify-content: center;
     text-align: center;
     padding: 10px;
@@ -25,11 +25,11 @@ body {
       / 0.1fr 1fr 0.2fr;
     gap: 8px;
     border: 2px solid;
+    width: auto;
+    max-width: 80rem;
+    
 }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a { text-decoration: none; }
 
 
 .header { 
