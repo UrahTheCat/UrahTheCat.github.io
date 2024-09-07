@@ -5,18 +5,17 @@
     --font-color    : #fff;
     --border-color  : #6600af;
     
-    
 }
 
 @font-face {
     font-family: "Audiowide";
-    src:    url(./assets/fonts/audiowide/Audiowide-Regular.woff) format('woff'),
-            url(./assets/fonts/audiowide/Audiowide-Regular.ttf) format('truetype');
+    src:    url(./fonts/audiowide/Audiowide-Regular.woff) format('woff'),
+            url(./fonts/audiowide/Audiowide-Regular.ttf) format('truetype');
     
 }
 @font-face {
     font-family: "Cascadia";
-    src: url(assets/fonts/Cascadia/CascadiaMono.ttf) format('truetype');
+    src: url(./fonts/Cascadia/CascadiaMono.ttf) format('truetype');
 }
 
 ul {
