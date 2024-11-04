@@ -1,78 +1,80 @@
 html {
-    margin: 0;
-    padding: 0;    
+    margin:     0;
+    padding:    0;    
     
 }
 * {
-    color: white;
-    background-color: var(--bg-color);
-    font-family: "Audiowide", monospace;
-    justify-content: center;
-    text-align: center;
+    color:              white;
+    background-color:   var(--bg-color);
+    font-family:        "Audiowide", monospace;
+    justify-content:    center;
+    text-align:         center;
 }
 body {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
+    display:            flex;
+    justify-content:    center;
+    text-align:         center;
+    padding:            10px;
 }
 .layout {
-    display: grid;
+    display:    grid;
     grid:
-      "header header header" auto
-      "leftSide body rightSide" 1fr
-      "footer footer footer" auto
-      / 0.1fr 1fr 0.2fr;
-    gap: 8px;
-    border: 2px solid;
-    width: auto;
-    max-width: 80rem;
+
+      "header   header  header"     auto
+      "leftSide body    rightSide"  1fr
+      "footer   footer  footer"     auto
+      / 0.1fr   1fr     0.2fr;
+
+    gap:        8px;
+    border:     2px solid;
+    width:      auto;
+    max-width:  80rem;
     
 }
 a { text-decoration: none; }
 
 
 .header { 
-    grid-area: header; 
-    border: 2px solid;
-    padding: 10px;
-    margin: 5px;
+    grid-area:  header; 
+    border:     2px solid;
+    padding:    10px;
+    margin:     5px;
 }
 
 .leftSide { 
-    grid-area: leftSide; 
-    border: 2px solid;
-    padding: 10px;
-    margin: 5px;
+    grid-area:  leftSide; 
+    border:     2px solid;
+    padding:    10px;
+    margin:     5px;
 }
 .nav {
-    list-style: none;
-    justify-content: center;
-    margin: 10px;
+    list-style:         none;
+    justify-content:    center;
+    margin:             10px;
 }
 .nav-button {
-    border: 2px solid;
-    margin: 0px 0px 1rem 0px;
-    padding: 7px;
+    border:     2px solid;
+    margin:     0px 0px 1rem 0px;
+    padding:    7px;
 } 
 
 
 
 .body { 
-    grid-area: body; 
-    border: 2px solid;
-    padding: 10px;
-    margin: 5px;
+    grid-area:  body; 
+    border:     2px solid;
+    padding:    10px;
+    margin:     5px;
 }
 .rightSide { 
-    grid-area: rightSide; 
-    border: 2px solid;
-    padding: 10px;
-    margin: 5px;
+    grid-area:  rightSide; 
+    border:     2px solid;
+    padding:    10px;
+    margin:     5px;
 }
 .footer { 
-    grid-area: footer; 
-    border: 2px solid;
-    padding: 10px;
-    margin: 5px;
+    grid-area:  footer; 
+    border:     2px solid;
+    padding:    10px;
+    margin:     5px;
 }
