@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    color: white;
+    background-color: var(--bg-color);
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.siari_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--highlight-color);
+
+}
+
+.siari_subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--highlight-light);
+}
