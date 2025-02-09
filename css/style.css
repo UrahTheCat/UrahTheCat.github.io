@@ -31,8 +31,8 @@ body {
     max-width:  80rem;
     
 }
-a { text-decoration: none; }
 
+a { text-decoration: none; }
 
 .header { 
     grid-area:  header; 
