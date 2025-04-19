@@ -1,0 +1,121 @@
+:root {
+
+    --bg-color          : #ecbef9;
+    --bg-color-alt      : #fbdbfd;
+    --font-color        : #fff;
+    --border-color      : #6600af;
+    --highlight-color   : #9222e7;
+    --highlight-light   : #be7dff;
+    --button            : #9b61d5;
+    
+}
+
+@font-face {
+    font-family:		"Cascadia";
+    src:    			url(/fonts/Cascadia/CascadiaMono.ttf)	format('truetype');
+}
+
+ul {
+    list-style-type:    none;
+    margin:             0px;
+    padding:            0px;
+}
+
+* {
+    background-color:   black;
+    font-family:        "Cascadia", monospace;
+	text-decoration: 	none;
+}
+
+.main {
+    margin:     		50px    25%;
+    height:     		auto;
+    width:      		40%;
+    position:   		relative;
+    text-align: 		center;
+    height:     		500px;
+
+}
+
+.main-body {
+    border: 			4px 	solid 	var(--bg-color);
+	background-color: 	var(--bg-color-alt);
+    width: 				100%;
+    height: 			300px;
+	padding-top:		20px;
+}
+
+.header {
+    background-color: 	var(--border-color);
+    overflow: 			hidden;
+    border: 			4px 	solid 	var(--border-color);
+    height: 			20px;
+    width: 				100%;
+}
+.header a.text {
+    background-color: 	var(--border-color);
+    color: 				white;
+}
+.btn-close {
+	background-color: var(--highlight-light);
+	color: white;
+	float: right;
+	margin: 0px 5px 0px 0px;
+	padding: 0px 5px;
+}
+.btn-close:hover {
+	background-color: var(--highlight-color);
+	cursor: pointer;
+}
+
+.topnav {
+    background-color: 	var(--bg-color);
+    overflow: 			hidden;
+    border: 			4px 	solid 	var(--bg-color);
+    border-bottom:		none;
+    height: 			30px;
+    width: 				100%;
+    align-content: 		center;
+}
+.topnav a {
+    float: 				left;
+    color: 				#000000;
+    text-align: 		center;
+    padding: 			4px 	12px;
+    text-decoration: 	none;
+    font-size: 			17px;
+    background-color: 	var(--highlight-light);
+    margin-left: 		4px;
+  }
+.topnav a.first {
+    margin-left: 		0px;
+}
+.topnav a:hover {
+    background-color: 	var(--highlight-color);
+    color: 				white;
+	cursor: 			pointer;
+}
+
+.window {
+	visibility: 		hidden;
+	width: 				100%;
+    height: 			100%;
+    position: 			absolute;
+    top: 				0;
+    left: 				0;
+}
+
+.win-main {
+	visibility: visible;
+}
+
+.show {
+	visibility: visible;
+}
+
+#socials {
+	z-index: 			9;
+    margin: 			75px 	90%;
+	width: 				25%;
+	height: 			50%;
+}

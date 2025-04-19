@@ -1,0 +1,28 @@
+:root {
+
+    --bg-color          : #000;
+    --bg-color-alt      : #330050;
+    --font-color        : #fff;
+    --border-color      : #6600af;
+    --highlight-color   : #8800ee;
+    --highlight-light   : #be7dff;
+    
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.frame {
+    
+    text-align: center;
+    border-color: var(--border-color);
+    border-style: solid;
+    border-width: 4px;
+    width: 1000px;
+    height: 500px;
+    margin: 3%;
+}
