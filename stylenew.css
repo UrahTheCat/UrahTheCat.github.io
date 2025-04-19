@@ -23,7 +23,7 @@ ul {
 
 * {
     background-color:   black;
-    font-family:        "Cascadia", monospace;
+    font-family:        "Cascadia", 	monospace;
 	text-decoration: 	none;
 }
 
@@ -57,15 +57,15 @@ ul {
     color: 				white;
 }
 .btn-close {
-	background-color: var(--highlight-light);
-	color: white;
-	float: right;
-	margin: 0px 5px 0px 0px;
-	padding: 0px 5px;
+	background-color:   var(--highlight-light);
+	color:				white;
+	float: 				right;
+	margin-right: 		5px;
+	padding: 			0px 	5px;
 }
 .btn-close:hover {
-	background-color: var(--highlight-color);
-	cursor: pointer;
+	background-color: 	var(--highlight-color);
+	cursor: 			pointer;
 }
 
 .topnav {
@@ -106,11 +106,11 @@ ul {
 }
 
 .win-main {
-	visibility: visible;
+	visibility: 		visible;
 }
 
 .show {
-	visibility: visible;
+	visibility: 		visible;
 }
 
 #socials {
