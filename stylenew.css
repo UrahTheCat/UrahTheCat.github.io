@@ -21,8 +21,11 @@ ul {
     padding:            0px;
 }
 
-* {
+body {
     background-color:   black;
+}
+
+* {
     font-family:        "Cascadia", 	monospace;
 	text-decoration: 	none;
 }
