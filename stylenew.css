@@ -7,7 +7,7 @@
     --highlight-color   : #9222e7;
     --highlight-light   : #be7dff;
     --button            : #9b61d5;
-    
+
 }
 
 @font-face {
@@ -121,4 +121,28 @@ body {
     margin: 			75px 	90%;
 	width: 				25%;
 	height: 			50%;
+}
+
+#socials .main-body a {
+    display:            grid;
+    color: 				#000000;
+    text-align: 		center;
+    padding: 			4px 	12px;
+    text-decoration: 	none;
+    font-size: 			17px;
+    background-color: 	var(--highlight-light);
+    margin-left:        10px;
+    margin-right:       10px;
+    margin-bottom:      10px;
+}
+#socials .main-body a:hover {
+    background-color: 	var(--highlight-color);
+}
+
+.main-body h1 {
+    color: var(--border-color);
+}
+
+.main-body {
+    color: var(--highlight-color);
 }
