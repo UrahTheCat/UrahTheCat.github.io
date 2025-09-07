@@ -110,6 +110,7 @@ body {
 
 .win-main {
 	visibility: 		visible;
+	width: 128%;
 }
 
 .show {
@@ -118,8 +119,8 @@ body {
 
 #socials {
 	z-index: 			9;
-    margin: 			75px 	90%;
-	width: 				25%;
+    margin: 			75px 90%;
+	width: 				84%;
 	height: 			50%;
 }
 
