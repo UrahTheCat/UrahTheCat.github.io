@@ -1,0 +1,115 @@
+#workskin .terminal {
+    background: black;
+    background-image: repeating-linear-gradient(0deg, rgba(36, 36, 36, 0.35) 0px, rgba(36, 36, 36, 0.35) 1px, transparent 1px, transparent 3px);
+
+    border: 1px solid rgb(3, 171, 209);
+    max-width: 700px;
+
+    margin: auto;
+
+    font-family: "Courier New", "Lucida Console", "Andale Mono",  monospace;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}
+
+#workskin .terminal-title {
+    background: rgb(3, 171, 209);
+    color: black;
+    padding: 4px 1px 4px 10px;
+}
+
+#workskin .terminal-screen {
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    padding: 14px 18px;
+    line-height: 1.2;
+
+    color: rgb(3, 171, 209);
+    text-shadow: 0 0 3px rgba(3, 171, 209, 0.4);
+    max-height: 500px;
+    box-shadow: inset 0px 0px 1px 1px rgb(3, 171, 209);
+}
+#workskin .terminal-screen::-webkit-scrollbar {
+  display: none;
+}
+
+#workskin .terminal-screen a {
+    color: rgb(3, 171, 209);
+}
+
+#workskin .terminal-screen p {
+  margin: 0 0 4px;
+}
+
+#workskin .terminal-screen pre {
+    margin: 0px;
+    font-family: "Courier New", "Lucida Console", "Andale Mono",  monospace;
+    letter-spacing: 0.05em;
+
+}
+
+#workskin .terminal-screen p.gap {
+  margin-top: 12px;
+}
+#workskin .terminal-screen pre.gap {
+  margin-top: 12px;
+}
+
+#workskin .terminal-screen .cursor {
+  background: #00a6ff;
+  color: #0a0500;
+  padding: 0 4px;
+}
+
+#workskin .thought {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#workskin .warn {
+    color: rgb(226, 124, 28);
+    text-shadow: 0 0 3px rgba(226, 124, 28, 0.4);
+}
+
+#workskin .error {
+    color: rgb(250, 64, 22);
+    text-shadow: 0 0 3px rgba(250, 64, 22, 0.4);
+}
+
+#workskin .fatal {
+    color: rgb(158, 0, 0);
+    text-shadow: 0 0 3px rgba(158, 0, 0, 0.4);
+}
+
+#workskin .ext {
+    color: rgb(20, 54, 244);
+    text-shadow: 0 0 3px rgba(20, 54, 244, 0.4);
+}
+
+#workskin .info {
+    color: rgb(143, 234, 255);
+    text-shadow: 0 0 3px rgba(143, 234, 255, 0.4);
+
+}
+#workskin .ok {
+    color: rgb(7, 219, 0);
+    text-shadow: 0 0 3px rgba(7, 219, 0, 0.4);
+}
+#workskin .nimiq {
+    color: rgb(223, 255, 253);
+    text-shadow: 0 0 3px rgba(223, 255, 253, 0.4);
+}
+
+#workskin .newspaper {
+    margin: auto;
+    max-width: 700px;
+    padding: 1em;
+
+}
+#workskin .newspaper .page {
+    max-width: 700px;
+}
+
+
+
+

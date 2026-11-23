@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="nimiq.css">
+</head>
+<body id="workskin">
+
+<div class="newspaper">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lasting_image_for_Nepean_woman.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="" class="page" >
+</div>
+<div class="terminal">
+	<div class="terminal-screen">
+<p>VxWorks boot up</p>
+<p></p>
+<p><span class="ok">[ OK ]</span> initialize core components</p>
+<p><span class="ok">[ OK ]</span> romInit.s entrypoint loaded</p>
+<p><span class="ok">[ OK ]</span> initialize CPU</p>
+<p><span class="ok">[ OK ]</span> initialize memory</p>
+<p><span class="ok">[ OK ]</span> copy bootrom to ROOT</p>
+<p><span class="ok">[ OK ]</span> initialize STACK</p>
+<p><span class="ok">[ OK ]</span> ITERRUPT locked</p>
+<p><span class="ok">[ OK ]</span> jump to romStart()</p>
+<p><span class="ok">[ OK ]</span> romStart.c loaded</p>
+<p><span class="ok">[ OK ]</span> clear memory</p>
+<p><span class="ok">[ OK ]</span> copy vxWorks ROM image to RAM</p>
+<p><span class="ok">[ OK ]</span> jump to ENTRY object</p>
+<p><span class="ok">[ OK ]</span> ENTRY object found in sysALib.s</p>
+<p><span class="ok">[ OK ]</span> jump to sysInit()</p>
+<p><span class="ok">[ OK ]</span> sysALib.s loaded</p>
+<p><span class="ok">[ OK ]</span> ITERRUPTS disabled</p>
+<p><span class="ok">[ OK ]</span> set up STACK</p>
+<p><span class="ok">[ OK ]</span> jump to usrInit()</p>
+<p><span class="ok">[ OK ]</span> usrConfig.c loaded</p>
+<p><span class="ok">[ OK ]</span> call sysHwInit0()</p>
+<p><span class="ok">[ OK ]</span> initialize BSP-specific</p>
+<p><span class="ok">[ OK ]</span> initialize CACHE</p>
+<p><span class="ok">[ OK ]</span> disable CACHE</p>
+<p><span class="ok">[ OK ]</span> setting up the interrupt vector base table</p>
+<p><span class="ok">[ OK ]</span> installing exception vectors</p>
+<p><span class="ok">[ OK ]</span> call sysHwInit()</p>
+<p><span class="ok">[ OK ]</span> load system hardware</p>
+<p><span class="ok">[ OK ]</span> enable CACHE</p>
+<p><span class="ok">[ OK ]</span> call usrKernelInit()</p>
+<p><span class="ok">[ OK ]</span> start WDB</p>
+<p><span class="ok">[ OK ]</span> configure Wind Kernel</p>
+<p><span class="ok">[ OK ]</span> start root task</p>
+<p><span class="ok">[ OK ]</span> call usrRoot()</p>
+<p><span class="error">[ ERR ]</span> usrConfig.c already loaded, skipping</p>
+<p><span class="ok">[ OK ]</span> call usrKernelCoreInit() to initialize Wind kernel facilities</p>
+<p><span class="error">[ ERR ]</span> initialize power managerment, only for PENTIUM</p>
+<p><span class="ok">[ OK ]</span> initialize system memory pool</p>
+<p><span class="ok">[ OK ]</span> configure memory managerment LIB</p>
+<p><span class="ok">[ OK ]</span> initialize sysCtrl support</p>
+<p><span class="ok">[ OK ]</span> initialize RTP(real time process)</p>
+<p><span class="ok">[ OK ]</span> initialize shared data</p>
+<p><span class="ok">[ OK ]</span> initialize shared LIB</p>
+<p><span class="ok">[ OK ]</span> initialize MMU</p>
+<p><span class="ok">[ OK ]</span> initialize environment valiables</p>
+<p><span class="ok">[ OK ]</span> initialize task stack protecting mode</p>
+<p><span class="ok">[ OK ]</span> initialize signals</p>
+<p><span class="ok">[ OK ]</span> setup system timers</p>
+<p><span class="ok">[ OK ]</span> initialize IO system</p>
+<p><span class="ok">[ OK ]</span> initialize select LIB</p>
+<p><span class="ok">[ OK ]</span> initialize process file system</p>
+<p><span class="ok">[ OK ]</span> install console driver and create serial devices</p>
+<p><span class="ok">[ OK ]</span> initialize PC_CONSOLE</p>
+<p><span class="ok">[ OK ]</span> initialize hash table facilities</p>
+<p><span class="ok">[ OK ]</span> initialize symbol table facilities</p>
+<p><span class="ok">[ OK ]</span> initialize exception handling</p>
+<p><span class="ok">[ OK ]</span> initialize list LIB</p>
+<p><span class="ok">[ OK ]</span> initialize logging</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX clock</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX timers</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX shared memory</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX memory mapped</p>
+<p><span class="ok">[ OK ]</span> initialize debugging</p>
+<p><span class="ok">[ OK ]</span> initialize pipe driver</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX asyc IO support</p>
+<p><span class="ok">[ OK ]</span> initialize STDIO LIB</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX queued signals</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX semaphores</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX threads</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX scheduler</p>
+<p><span class="ok">[ OK ]</span> initialize signals events</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX message queues</p>
+<p><span class="ok">[ OK ]</span> dosFs2 filesystem initialization</p>
+<p><span class="ok">[ OK ]</span> initialize ramFs filesystem</p>
+<p><span class="ok">[ OK ]</span> install ram disk driver</p>
+<p><span class="ok">[ OK ]</span> install memory disk driver</p>
+<p><span class="ok">[ OK ]</span> install pseudo-terminal driver</p>
+<p><span class="ok">[ OK ]</span> initialize SCSI</p>
+<p><span class="ok">[ OK ]</span> initialize FD if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize ATA</p>
+<p><span class="ok">[ OK ]</span> initialize LPT if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize TFFS</p>
+<p><span class="ok">[ OK ]</span> initialize formatted IO</p>
+<p><span class="ok">[ OK ]</span> initialize float point facilites</p>
+<p><span class="ok">[ OK ]</span> install DSP surport if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize system calls</p>
+<p><span class="ok">[ OK ]</span> initialize performance monitoring tools</p>
+<p><span class="ok">[ OK ]</span> initialize module loader and unloader</p>
+<p><span class="ok">[ OK ]</span> initialize local storage support</p>
+<p><span class="ok">[ OK ]</span> initialize network if INCLUDED</p>
+<p><span class="error">[ ERR ]</span> initialize USB component if INCLUDED</p>
+<p><span class="ok">[ OK ]</span> initialize shared memory objects</p>
+<p><span class="ok">[ OK ]</span> create system and status symbol table</p>
+<p><span class="ok">[ OK ]</span> initialize C++ LIB support</p>
+<p><span class="ok">[ OK ]</span> initialize Wind Web server</p>
+<p><span class="ok">[ OK ]</span> if windview INCLUDED, initialize timestamp</p>
+<p><span class="ok">[ OK ]</span> initialize WDB debug agent</p>
+<p><span class="ok">[ OK ]</span> initialize interactive SHELL</p>
+<p><span class="ok">[ OK ]</span> initialize WINDML if INLCUDED</p>
+<p><span class="ok">[ OK ]</span> turn on power managerment</p>
+<p><span class="ok">[ OK ]</span> initialize filesystem boot component</p>
+<p><span class="ok">[ OK ]</span> initialize Network boot component</p>
+<p><span class="error">[ ERR ]</span> initialize the usb keyboard after shell Initialization</p>
+<p><span class="ok">[ OK ]</span> optimize MMU</p>
+<p><span class="ok">[ OK ]</span> start up user's application</p>
+<p><span class="ok">[ OK ]</span> initialize RTP startup facility</p>
+<br>
+<p><b><pre>
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+     ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]        Development System
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]        VxWorks version  5.3.1
+]]]]]]]]]]]]]]]]]]]]]]]]]]        KERNEL:  WIND version 2.6
+]]]]]]]]]]]]]]]]]]]]]]]]]        Copyright Wind River Systems, Inc. 1984-1999
+</pre></b></p>
+<br>
+<p><span class="ok">[ OK ]</span> initialize NIMIQ services</p>
+<p><span class="ok">[ OK ]</span> initialize calibration systems</p>
+<p><span class="ok">[ OK ]</span> load NIMIQ interface</p>
+<br>
+<p><b><pre>
+=============================================================================
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::: ##::: ##: ####: ##:::: ##: ####:: #######:::::::::::::: ##::::::::::
+:::::::: ###:: ##:. ##:: ###:: ###:. ##:: ##.... ##::::::::::: ####::::::::::
+:::::::: ####: ##:: ##:: #### ####:: ##:: ##:::: ##:::::::::::.. ##::::::::::
+:::::::: ## ## ##:: ##:: ## ### ##:: ##:: ##:::: ##: #######:::: ##::::::::::
+:::::::: ##. ####:: ##:: ##. #: ##:: ##:: ##: ## ##:........:::: ##::::::::::
+:::::::: ##:. ###:: ##:: ##:.:: ##:: ##:: ##:.. ##:::::::::::::: ##::::::::::
+:::::::: ##::. ##:'####: ##:::: ##:'####:: ##### ##:::::::::::'######::::::::
+::::::::..::::..::....::..:::::..::....:::.....:..::::::::::::......:::::::::
+=============================================================================
+NIMIQ OS Version 1.0.1                             Copyright Telsat 1969-1999
+</pre></b></p>
+<br>
+<p><span class="ok">[ OK ]</span> Establish communication with Satellite Control Center</p>
+<p><span class="ok">[ OK ]</span> Transmit test packets</p>
+<p><span class="ok">[ OK ]</span> Set up goestationary positioning</p>
+<p><span class="ok">[ OK ]</span> Establish permanent connection with Satellite Control Center</p>
+<p><span class="ok">[ OK ]</span> Ping CSA Satellite Control Center at 192.137.158.0</p>
+<p><span class="ok">[ OK ]</span> Update system from remote</p>
+<br>
+<p>System is up to date</p>
+<br>
+<p><span class="ok">[ OK ]</span> Reload services</p>
+<p><span class="ok">[ OK ]</span> Initialize logging</p>
+<br>
+<br>
+<p><b>////log 1999-05-21</b></p>
+<br>
+<p>[1999-05-21T18:25:24.368] <span class="info">[INFO]</span> Logging started</p>
+<p>[1999-05-21T18:25:24.411] <span class="info">[INFO]</span> Establishing connection with CSA Satellite Control Center at 192.137.158.0</p>
+<p>[1999-05-21T18:25:31.258] <span class="info">[INFO]</span> Connection established: successfully connected to CSA Satellite Control Center</p>
+<p>[1999-05-21T18:25:33.589] <span class="info">[INFO]</span> Accurate coordinates received, repositioning to (44.1742528,-80.9408173). . .</p>
+<p>[1999-05-21T19:15:15.648] <span class="warn">[WARN]</span> (44.1742528,-80.9408173) could not be reached, manual adjustment required</p>
+<p>[1999-05-21T19:15:15.648] <span class="info">[INFO]</span> Sending warning ping to CSA Satellite Control Center (192.137.158.0)</p>
+<p>[1999-05-21T19:17:24.854] <span class="warn">[WARN]</span> System control override by Administrator (Telsat)</p>
+<p>[1999-05-21T19:29:32.025] <span class="info">[INFO]</span> Position corrected, returning control to Automated System</p>
+<p>[1999-05-21T19:30:12.245] <span class="info">[INFO]</span> Initializing connection with Telsat Communication Center</p>
+<p>[1999-05-21T19:30:13.285] <span class="info">[INFO]</span> Receiving ping from 192.137.158.0</p>
+<p>[1999-05-21T19:30:48.842] <span class="info">[INFO]</span> Ping received, sending response ping</p>
+<p>[1999-05-21T19:30:57.130] <span class="info">[INFO]</span> Connection with Telsat Communication Center established</p>
+<p>[1999-05-21T19:31:12.541] <span class="info">[INFO]</span> Initializing transmission test</p>
+<p>[1999-05-21T19:32:26.159] <span class="info">[INFO]</span> Initializing packet reception system test</p>
+<p>[1999-05-21T19:40:59.229] <span class="info">[INFO]</span> Packet received (0x57FC)</p>
+<p>[1999-05-21T19:41:35.127] <span class="info">[INFO]</span> Packet received (0xA32B)</p>
+<p>[1999-05-21T19:42:12.368] <span class="info">[INFO]</span> Packet received (0xE920)</p>
+<p>[1999-05-21T19:43:24.384] <span class="error">[ERROR]</span> Package loss: Package 0xCB03 is corrupted or contains the wrong data</p>
+<p>[1999-05-21T19:43:39.226] <span class="info">[INFO]</span> Sending package loss ping</p>
+<p>[1999-05-21T19:45:38.208] <span class="info">[INFO]</span> Packet received (0xCB03)</p>
+<p>[1999-05-21T19:46:29.754] <span class="info">[INFO]</span> Packet received (0xAF9B)</p>
+<p>[1999-05-21T19:46:29.754] <span class="info">[INFO]</span> Package reception test finalized</p>
+<p>[1999-05-21T19:46:29.754] <span class="info">[INFO]</span> Initializing package sending test</p>
+<p>[1999-05-21T19:52:29.239] <span class="info">[INFO]</span> Package sent (0x57FC)</p>
+<p>[1999-05-21T19:53:18.486] <span class="info">[INFO]</span> Package sent (0xA32B)</p>
+<p>[1999-05-21T19:55:42.941] <span class="info">[INFO]</span> Package sent (0xE920)</p>
+<p>[1999-05-21T19:57:27.420] <span class="info">[INFO]</span> Package sent (0xCB03)</p>
+<p>[1999-05-21T19:59:03.002] <span class="info">[INFO]</span> Package sent (0xAF9B)</p>
+<p>[1999-05-21T20:00:36.214] <span class="info">[INFO]</span> Package sending test finalized</p>
+<p>[1999-05-21T20:01:07.059] <span class="info">[INFO]</span> Transmission test finalized</p>
+<p>[1999-05-21T20:10:26.239] <span class="info">[INFO]</span> Configuration finalized, rebooting. . .</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[1999-06-19T05:34:07.950] <span class="info">[INFO]</span> Receiving package (0xA402)</p>
+<p>[1999-06-19T05:34:16.661] <span class="info">[INFO]</span> Transmitting package (0xA402)</p>
+<p>[1999-06-19T05:34:20.062] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[1999-06-19T05:34:23.215] <span class="info">[INFO]</span> Receiving package (0x26F0)</p>
+<p>[1999-06-19T05:34:25.958] <span class="info">[INFO]</span> Transmitting package (0x26F0)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[1999-08-03T10:43:17.390] <span class="info">[INFO]</span> Receiving package (0xFF05)</p>
+<p>[1999-08-03T10:43:21.952] <span class="info">[INFO]</span> Transmitting package (0xFF05)</p>
+<p>[1999-08-03T10:44:02.691] <span class="info">[INFO]</span> Attempt at external control blocked.</p>
+<p>[1999-08-03T10:44:09.329] <span class="info">[INFO]</span> Attempt at external control blocked.</p>
+<p>[1999-08-03T10:44:12.942] <span class="info">[INFO]</span> Attempt at external control blocked.</p>
+<p>[1999-08-03T10:44:13.752] <span class="info">[INFO]</span> Receiving package (0xA953)</p>
+<p>[1999-08-03T10:44:14.201] <span class="info">[INFO]</span> Transmitting package (0xA953)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[1999-11-23T21:29:40.618] <span class="info">[INFO]</span> Receiving package (0xDE84)</p>
+<p>[1999-11-23T21:29:41.950] <span class="info">[INFO]</span> Transmitting package (0xDE84)</p>
+<p>[1999-11-23T21:29:42.966] <span class="info">[INFO]</span> Attempt at external control blocked.</p>
+<p>[1999-11-23T21:29:44.152] <span class="info">[INFO]</span> Receiving package (0xB432)</p>
+<p>[1999-11-23T21:29:45.941] <span class="info">[INFO]</span> Transmitting package (0xB432)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-01-02T23:23:19.005] <span class="info">[INFO]</span> Receiving package (0xA51A)</p>
+<p>[2000-01-02T23:23:21.024] <span class="info">[INFO]</span> Transmitting package (0xA51A)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-03-23T02:15:25.321] <span class="info">[INFO]</span> Receiving package (0x8A51)</p>
+<p>[2000-03-23T02:15:27.268] <span class="info">[INFO]</span> Transmitting package (0x8A51)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-05-21T23:41:35.268] <span class="info">[INFO]</span> Receiving package (0x09E0)</p>
+<p>[2000-05-21T23:41:36.841] <span class="info">[INFO]</span> Transmitting package (0x09E0)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-08-14T16:26:49.754] <span class="info">[INFO]</span> Receiving package (0x683A)</p>
+<p>[2000-08-14T16:26:51.021] <span class="info">[INFO]</span> Transmitting package (0x683A)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-09-15T03:28:21.651] <span class="info">[INFO]</span> Receiving package (0xA72B)</p>
+<p>[2000-09-15T03:28:22.852] <span class="info">[INFO]</span> Transmitting package (0xA72B)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2000-11-26T10:53:39.315] <span class="info">[INFO]</span> Receiving package (0x0396)</p>
+<p>[2000-11-26T10:53:40.958] <span class="info">[INFO]</span> Transmitting package (0x0396)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2001-01-01T21:50:41.029] <span class="info">[INFO]</span> Receiving package (0xAF32)</p>
+<p>[2001-01-01T21:50:42.638] <span class="info">[INFO]</span> Transmitting package (0xAF32)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2001-03-15T15:02:27.985] <span class="info">[INFO]</span> Receiving package (0x206F)</p>
+<p>[2001-03-15T15:02:29.004] <span class="info">[INFO]</span> Transmitting package (0x206F)</p>
+<p></p>
+<p>. . .</p>
+<p></p>
+<p>[2001-04-15T15:34:42.561] <span class="info">[INFO]</span> Receiving package (0x15FA)</p>
+<p>[2001-04-15T15:34:44.355] <span class="info">[INFO]</span> Transmitting package (0x15FA)</p>
+<p>[2001-04-15T15:35:02.025] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.032] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.041] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.052] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.065] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.071] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.088] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.095] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.102] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.113] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.125] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.136] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.149] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.158] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.164] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.175] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.183] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.197] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.203] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.214] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.226] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.234] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.245] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.251] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.260] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.277] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.281] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.293] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.301] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.316] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.322] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.336] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.345] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.359] <span class="warn">[WARN]</span> Attempt at external control blocked.</p>
+<p>[2001-04-15T15:35:02.394] <span class="error">[ERROR]</span> System bandwidth overflow.</p>
+<p>[2001-04-15T15:35:02.394] <span class="error">[ERROR]</span> System connection error, attempting to reset.</p>
+<p>[2001-04-15T15:35:03.127] <span class="warn">[WARN]</span> External control granted to ��������.</p>
+<p>[2001-04-15T15:35:04.326] <span class="warn">[WARN]</span> Logging disabled by external user: ��������.</p>
+<p>[2001-04-15T15:48:12.651] <span class="warn">[WARN]</span> Core system files modified by external user: ��������.</p>
+<p>[2001-04-15T15:48:13.184] <span class="info">[INFO]</span> Sending distress signal do CSA Satellite Control Center at 192.137.158.0</p>
+<p>[2001-04-15T15:48:15.987] <span class="error">[ERROR]</span> Could not send signal: communication systems offline.</p>
+<p>[2001-04-15T15:48:19.745] <span class="warn">[WARN]</span> Restart scheduled for 2001-04-15T15:48:20.000 by ��������</p>
+<p>[2001-04-15T15:48:20.000] <span class="info">[INFO]</span> Restarting system.</p>
+<br>
+<p>. . .</p>
+<br>
+<p>VxWorks boot up</p>
+<p></p>
+<p><span class="ok">[ OK ]</span> initialize core components</p>
+<p><span class="ok">[ OK ]</span> romInit.s entrypoint loaded</p>
+<p><span class="ok">[ OK ]</span> initialize CPU</p>
+<p><span class="ok">[ OK ]</span> initialize memory</p>
+<p><span class="ok">[ OK ]</span> copy bootrom to ROOT</p>
+<p><span class="ok">[ OK ]</span> initialize STACK</p>
+<p><span class="ok">[ OK ]</span> ITERRUPT locked</p>
+<p><span class="ok">[ OK ]</span> jump to romStart()</p>
+<p><span class="ok">[ OK ]</span> romStart.c loaded</p>
+<p><span class="ok">[ OK ]</span> clear memory</p>
+<p><span class="ok">[ OK ]</span> copy vxWorks ROM image to RAM</p>
+<p><span class="ok">[ OK ]</span> jump to ENTRY object</p>
+<p><span class="ok">[ OK ]</span> ENTRY object found in sysALib.s</p>
+<p><span class="ok">[ OK ]</span> jump to sysInit()</p>
+<p><span class="ok">[ OK ]</span> sysALib.s loaded</p>
+<p><span class="ok">[ OK ]</span> ITERRUPTS disabled</p>
+<p><span class="ok">[ OK ]</span> set up STACK</p>
+<p><span class="ok">[ OK ]</span> jump to usrInit()</p>
+<p><span class="ok">[ OK ]</span> usrConfig.c loaded</p>
+<p><span class="ok">[ OK ]</span> call sysHwInit0()</p>
+<p><span class="ok">[ OK ]</span> initialize BSP-specific</p>
+<p><span class="ok">[ OK ]</span> initialize CACHE</p>
+<p><span class="ok">[ OK ]</span> disable CACHE</p>
+<p><span class="ok">[ OK ]</span> setting up the interrupt vector base table</p>
+<p><span class="ok">[ OK ]</span> installing exception vectors</p>
+<p><span class="ok">[ OK ]</span> call sysHwInit()</p>
+<p><span class="ok">[ OK ]</span> load system hardware</p>
+<p><span class="ok">[ OK ]</span> enable CACHE</p>
+<p><span class="ok">[ OK ]</span> call usrKernelInit()</p>
+<p><span class="ok">[ OK ]</span> start WDB</p>
+<p><span class="ok">[ OK ]</span> configure Wind Kernel</p>
+<p><span class="ok">[ OK ]</span> start root task</p>
+<p><span class="ok">[ OK ]</span> call usrRoot()</p>
+<p><span class="error">[ ERR ]</span> usrConfig.c already loaded, skipping</p>
+<p><span class="ok">[ OK ]</span> call usrKernelCoreInit() to initialize Wind kernel facilities</p>
+<p><span class="error">[ ERR ]</span> initialize power managerment, only for PENTIUM</p>
+<p><span class="ok">[ OK ]</span> initialize system memory pool</p>
+<p><span class="ok">[ OK ]</span> configure memory managerment LIB</p>
+<p><span class="ok">[ OK ]</span> initialize sysCtrl support</p>
+<p><span class="ok">[ OK ]</span> initialize RTP(real time process)</p>
+<p><span class="ok">[ OK ]</span> initialize shared data</p>
+<p><span class="ok">[ OK ]</span> initialize shared LIB</p>
+<p><span class="ok">[ OK ]</span> initialize MMU</p>
+<p><span class="ok">[ OK ]</span> initialize environment valiables</p>
+<p><span class="ok">[ OK ]</span> initialize task stack protecting mode</p>
+<p><span class="ok">[ OK ]</span> initialize signals</p>
+<p><span class="ok">[ OK ]</span> setup system timers</p>
+<p><span class="ok">[ OK ]</span> initialize IO system</p>
+<p><span class="ok">[ OK ]</span> initialize select LIB</p>
+<p><span class="ok">[ OK ]</span> initialize process file system</p>
+<p><span class="ok">[ OK ]</span> install console driver and create serial devices</p>
+<p><span class="ok">[ OK ]</span> initialize PC_CONSOLE</p>
+<p><span class="ok">[ OK ]</span> initialize hash table facilities</p>
+<p><span class="ok">[ OK ]</span> initialize symbol table facilities</p>
+<p><span class="ok">[ OK ]</span> initialize exception handling</p>
+<p><span class="ok">[ OK ]</span> initialize list LIB</p>
+<p><span class="ok">[ OK ]</span> initialize logging</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX clock</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX timers</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX shared memory</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX memory mapped</p>
+<p><span class="ok">[ OK ]</span> initialize debugging</p>
+<p><span class="ok">[ OK ]</span> initialize pipe driver</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX asyc IO support</p>
+<p><span class="ok">[ OK ]</span> initialize STDIO LIB</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX queued signals</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX semaphores</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX threads</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX scheduler</p>
+<p><span class="ok">[ OK ]</span> initialize signals events</p>
+<p><span class="ok">[ OK ]</span> initialize POSIX message queues</p>
+<p><span class="ok">[ OK ]</span> dosFs2 filesystem initialization</p>
+<p><span class="ok">[ OK ]</span> initialize ramFs filesystem</p>
+<p><span class="ok">[ OK ]</span> install ram disk driver</p>
+<p><span class="ok">[ OK ]</span> install memory disk driver</p>
+<p><span class="ok">[ OK ]</span> install pseudo-terminal driver</p>
+<p><span class="ok">[ OK ]</span> initialize SCSI</p>
+<p><span class="ok">[ OK ]</span> initialize FD if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize ATA</p>
+<p><span class="ok">[ OK ]</span> initialize LPT if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize TFFS</p>
+<p><span class="ok">[ OK ]</span> initialize formatted IO</p>
+<p><span class="ok">[ OK ]</span> initialize float point facilites</p>
+<p><span class="ok">[ OK ]</span> install DSP surport if necessary</p>
+<p><span class="ok">[ OK ]</span> initialize system calls</p>
+<p><span class="ok">[ OK ]</span> initialize performance monitoring tools</p>
+<p><span class="ok">[ OK ]</span> initialize module loader and unloader</p>
+<p><span class="ok">[ OK ]</span> initialize local storage support</p>
+<p><span class="ok">[ OK ]</span> initialize network if INCLUDED</p>
+<p><span class="error">[ ERR ]</span> initialize USB component if INCLUDED</p>
+<p><span class="ok">[ OK ]</span> initialize shared memory objects</p>
+<p><span class="ok">[ OK ]</span> create system and status symbol table</p>
+<p><span class="ok">[ OK ]</span> initialize C++ LIB support</p>
+<p><span class="ok">[ OK ]</span> initialize Wind Web server</p>
+<p><span class="ok">[ OK ]</span> if windview INCLUDED, initialize timestamp</p>
+<p><span class="ok">[ OK ]</span> initialize WDB debug agent</p>
+<p><span class="ok">[ OK ]</span> initialize interactive SHELL</p>
+<p><span class="ok">[ OK ]</span> initialize WINDML if INLCUDED</p>
+<p><span class="ok">[ OK ]</span> turn on power managerment</p>
+<p><span class="ok">[ OK ]</span> initialize filesystem boot component</p>
+<p><span class="ok">[ OK ]</span> initialize Network boot component</p>
+<p><span class="error">[ ERR ]</span> initialize the usb keyboard after shell Initialization</p>
+<p><span class="ok">[ OK ]</span> optimize MMU</p>
+<p><span class="ok">[ OK ]</span> start up user's application</p>
+<p><span class="ok">[ OK ]</span> initialize RTP startup facility</p>
+<br>
+<p><b><pre>
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+     ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]        Development System
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]        VxWorks version  5.3.1
+]]]]]]]]]]]]]]]]]]]]]]]]]]        KERNEL:  WIND version 2.6
+]]]]]]]]]]]]]]]]]]]]]]]]]        Copyright Wind River Systems, Inc. 1984-1999
+</pre></b></p>
+<br>
+<p><span class="ok">[ OK ]</span> initialize NIMIQ services</p>
+<p><span class="ok">[ OK ]</span> initialize ���� services</p>
+<p><span class="ok">[ OK ]</span> initialize calibration systems</p>
+<p><span class="ok">[ OK ]</span> load NIMIQ interface</p>
+<br>
+<p><b><pre>
+=============================================================================
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::: ##::: ##: ####: ##:::: ##: ####:: #######:::::::::::::: ##::::::::::
+:::::::: ###:: ##:. ##:: ###:: ###:. ##:: ##.... ##::::::::::: ####::::::::::
+:::::::: ####: ##:: ##:: #### ####:: ##:: ##:::: ##:::::::::::.. ##::::::::::
+:::::::: ## ## ##:: ##:: ## ### ##:: ##:: ##:::: ##: #######:::: ##::::::::::
+:::::::: ##. ####:: ##:: ##. #: ##:: ##:: ##: ## ##:........:::: ##::::::::::
+:::::::: ##:. ###:: ##:: ##:.:: ##:: ##:: ##:.. ##:::::::::::::: ##::::::::::
+:::::::: ##::. ##:'####: ##:::: ##:'####:: ##### ##:::::::::::'######::::::::
+::::::::..::::..::....::..:::::..::....:::.....:..::::::::::::......:::::::::
+=============================================================================
+NIMIQ OS Version 1.0.�                             Copyright Telsat 1969-1999
+</pre></b></p>
+<br>
+<p><span class="ok">[ OK ]</span> Establish communication with Satellite Control Center</p>
+<p><span class="ok">[ OK ]</span> Transmit test packets</p>
+<p><span class="ok">[ OK ]</span> Set up goestationary positioning</p>
+<p><span class="ok">[ OK ]</span> Establish permanent connection with Satellite Control Center</p>
+<p><span class="ok">[ OK ]</span> Ping CSA Satellite Control Center at 192.137.158.0</p>
+<p><span class="ok">[ OK ]</span> Update system from remote</p>
+<br>
+<p>System is up to date</p>
+<br>
+<p><span class="ok">[ OK ]</span> Reload services</p>
+<p><span class="ok">[ OK ]</span> Initialize logging</p>
+<br>
+<br>
+<p><b>////log 2001-04-15</b></p>
+<br>
+<p>[2001-04-15T16:02:18.851] <span class="nimiq">[NIMIQ]</span> <span class="thought">Hello?</span></p>
+
+</div>
+<div class="terminal-title">
+<span class="name">CSA@nimiq-1 — 77x33 — nimiq-1-log</span>
+</div>
+
+</div>
+
+</body>
+</html>
