@@ -1,0 +1,27 @@
+:root {
+
+    --bg-color          : #000;
+    --bg-color-alt      : #330050;
+    --font-color        : #fff;
+    --border-color      : #6600af;
+    --highlight-color   : #8800ee;
+    --highlight-light   : #be7dff;
+    
+}
+
+@font-face {
+    font-family: "Audiowide";
+    src:    url(/fonts/audiowide/Audiowide-Regular.woff)    format('woff'),
+            url(/fonts/audiowide/Audiowide-Regular.ttf)     format('truetype');
+    
+}
+@font-face {
+    font-family: "Cascadia";
+    src:    url(/fonts/Cascadia/CascadiaMono.ttf)           format('truetype');
+}
+
+ul {
+    list-style-type:    none;
+    margin:             0px;
+    padding:            0px;
+}
