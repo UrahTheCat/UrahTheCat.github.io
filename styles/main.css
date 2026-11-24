@@ -1,7 +1,7 @@
 * {
     background-color: black;
     color: white;
-    font-family: monospace;
+    font-family: "Fira Code";
     list-style: none;
     font-size: 1rem;
 }
@@ -13,7 +13,7 @@
 }
 
 .main {
-    min-width: 400px;
+    width: 800px;
     max-width: 800px;
 }
 
@@ -25,9 +25,6 @@
 .main-nav ul {
     border: solid 2px white;
     border-bottom: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
     
 }
@@ -57,5 +54,27 @@
     border: solid 2px white;
     padding: 0.5rem;
 
+    
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+}
+.image {
+    margin-right: 0.5rem;
+    width: 100px;
+    height: 100px;
+    outline: solid 2px white;
+}
+.name {
+    margin-left: 2rem;
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+.name p b {
+    font-size: 2rem;
     
 }

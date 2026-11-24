@@ -1,0 +1,23 @@
+ul {
+    list-style-type:    none;
+    margin:             0px;
+    padding:            0px;
+}
+
+
+@font-face {
+    font-family: "Audiowide";
+    src:    url(/fonts/audiowide/Audiowide-Regular.woff)    format('woff'),
+            url(/fonts/audiowide/Audiowide-Regular.ttf)     format('truetype');
+    
+}
+
+@font-face {
+    font-family: "Cascadia";
+    src:    url(/fonts/Cascadia/CascadiaMono.ttf)           format('truetype');
+}
+
+@font-face {
+    font-family: "FiraCode";
+    src: url();
+}
