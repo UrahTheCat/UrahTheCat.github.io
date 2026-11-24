@@ -16,8 +16,3 @@ ul {
     font-family: "Cascadia";
     src:    url(/fonts/Cascadia/CascadiaMono.ttf)           format('truetype');
 }
-
-@font-face {
-    font-family: "FiraCode";
-    src: url();
-}
