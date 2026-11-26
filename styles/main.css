@@ -26,7 +26,7 @@
     border: solid 2px white;
     border-bottom: none;
     width: 100%;
-    
+
 }
 .main-nav ul li {
     outline: solid 2px white;
@@ -47,14 +47,12 @@
     background-color: inherit;
 }
 .main-nav ul li.right {
-    flex: right;
+    float: right;
 }
 
 .content {
     border: solid 2px white;
     padding: 0.5rem;
-
-    
 }
 
 
@@ -68,6 +66,9 @@
     height: 100px;
     outline: solid 2px white;
 }
+.image a {
+    cursor: default;
+}
 .name {
     margin-left: 2rem;
     width: 100%;
@@ -76,5 +77,29 @@
 }
 .name p b {
     font-size: 2rem;
-    
+
+}
+
+.container {
+    outline: solid 2px white;
+    margin-top: 1rem;
+}
+
+.container-top {
+    width: 100%;
+    background-color: white;
+    color: black;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.container-top * {
+    padding-left: 0.5rem;
+    background-color: inherit;
+    color: inherit;
+    font-size: large;
+}
+
+.container-content {
+    padding: 0.5rem;
 }
